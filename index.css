@@ -1,0 +1,164 @@
+.main-box{
+    width: 1050px;
+    background-color: white;
+    position: absolute;
+    left: 100px;
+}
+.logo{
+    position: relative;
+    top: -104px;
+    left: 101px;
+}
+.home{
+    position: absolute;
+    top: 47px;
+    left: 235px;
+    background-color:lightgreen;
+    width: 60px;
+    height: 25px;
+    border-radius: 15px;
+    text-align: center;
+}
+.about{
+    position: absolute;
+    top: 47px;
+    left: 330px;
+}
+.programs{
+    position: absolute;
+    top: 47px;
+    left: 406px;
+}
+.gallery{
+    position: absolute;
+    top: 47px;
+    left: 551px;
+}
+.news{
+    position: absolute;
+    top: 47px;
+    left: 666px;
+}
+.contact{
+    position: absolute;
+    top: 47px;
+    left: 835px;
+}
+.box-1{
+    position: relative;
+    top: 320px;
+    width: 1050px;
+    height: 300px;
+    background-color: skyblue;
+}
+.img-1{
+    width: 500px;
+    height: 250px;
+    position: absolute;
+    top: 50px;
+    left: 100px;  
+}
+.text{
+    color: white;
+    position: absolute;
+    top: 50px;
+    left: 632px;
+}
+.para{
+    /* position: absolute; */
+    left: 650px;
+}
+.box-2{
+    position: absolute;
+    top: 620px;
+    color: white;
+    /* padding: 15px; */
+    background-color: green;
+    padding: 28px 9px 5px 45px;
+}
+.box-3{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    position: absolute;
+    top: 849px;
+    background-color: antiquewhite;
+    width: 1050px;
+    height: 333px;
+    /* margin-left: 100px; */
+}
+.mini-1{
+    width: 258px;
+    height: 277px;
+    margin: 20px;
+    padding: 10px;
+    background-color: white;
+    color: blue;
+
+}
+.mini-2{
+    background-color: white;
+    width: 241px;
+    height: 277px;
+    margin: 20px;
+    padding: 10px;
+    color: blue;
+}
+.mini-3{
+    background-color: white;
+    width: 300px;
+    height: 270px;
+    margin: 20px;
+    padding: 10px;
+    color: blue;
+}
+.first{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.second{
+    position: absolute;
+    top: 149px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.third{
+    position: absolute;
+    top: 200px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.date-1{
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+}
+.mon-1{
+    position: absolute;
+    top: 115px;
+}
+.mon-2{
+    position: absolute;
+    top: 27px;
+}
+.mon-3{
+    position: absolute;
+    top: 27px;
+}
+.footer{
+    position: absolute;
+    top: 1183px;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    background-color: green;
+    color: white;
+    width: 952px;
+    padding: 50px;
+}
+.btn{
+    background-color: green;
+    color: white; 
+    float: right;
+    border: none;
+    border-radius: 3px;
+    width: 100px;
+    height: 25px;
+}
